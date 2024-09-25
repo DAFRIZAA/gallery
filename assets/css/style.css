@@ -1,0 +1,46 @@
+.navbar {
+   border-bottom: 2px solid #0d6efd;
+}
+
+.navbar-nav .nav-link {
+   text-align: center;
+   font-weight: bold;
+   padding: 0 15px;
+   font-size: 16px;
+   color: #0d6efd;
+   transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+   color: #00378b;
+}
+
+@media (max-width: 991.98px) { /* Adjust padding for smaller screens */
+   .navbar-nav {
+       text-align: left;
+   }
+
+   .nav-link {
+       padding: 10px;
+   }
+}
+
+
+/* Background hero image */
+
+/* Custom background color */
+
+/* Custom text color */
+.text-user {
+    color: #f4c303;
+}
+
+/* Logo styling */
+.logo {
+    display: block;
+    margin: 0 auto 15px;
+    max-width: 200px;
+}
+
+
+
